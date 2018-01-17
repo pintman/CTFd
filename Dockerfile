@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM arm32v6/alpine
 RUN apk update && \
     apk add python python-dev libffi-dev gcc make musl-dev py-pip mysql-client
 

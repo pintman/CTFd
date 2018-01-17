@@ -15,7 +15,7 @@ services:
       - db
 
   db:
-    image: mariadb:10.2
+    image: hypriot/rpi-mysql
     environment:
       - MYSQL_ROOT_PASSWORD=ctfd
       - MYSQL_USER=ctfd
